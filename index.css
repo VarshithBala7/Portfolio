@@ -1,0 +1,16 @@
+/* Add any global styles here */
+:root{
+  --bg:#0b1020;
+  --panel:#0f1733;
+  --text:#e7e9f0;
+  --muted:#a8acc0;
+  --accent:#7c6cff;
+  --accent-2:#5bd6ff;
+  --shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+*{box-sizing:border-box}
+body{margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: var(--bg); color:var(--text)}
+a{color:var(--accent)}
+.container{width:min(1100px, 92%); margin:0 auto}
+.section{padding:72px 0}
+.card{background:var(--panel); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:1rem}
